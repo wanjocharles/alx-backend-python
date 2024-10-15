@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Creates a generator"""
 import asyncio
 import random
