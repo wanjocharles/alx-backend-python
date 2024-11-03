@@ -11,6 +11,8 @@ from unittest.mock import patch, PropertyMock
 class TestGithubOrgClient(unittest.TestCase):
     """Github Org Client test class
     """
+    repo={"license": {"key": "my_license"}}, license_key="my_license"
+    repo={"license": {"key": "other_license"}}, license_key="my_license"
 
     @parameterized.expand([
         ('google'),
